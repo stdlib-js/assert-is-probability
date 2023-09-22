@@ -50,13 +50,13 @@ A **probability** is defined as a numeric value on the interval `[0,1]`.
 ## Usage
 
 ```javascript
-import isProbability from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability@deno/mod.js';
+import isProbability from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability@deno/mod.js';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability@v0.1.0-deno/mod.js';
 ```
 
 #### isProbability( value )
@@ -133,7 +133,7 @@ bool = isProbability.isObject( new Number( 0.11 ) );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isProbability from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability@deno/mod.js';
+import isProbability from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability@v0.1.0-deno/mod.js';
 
 var bool = isProbability( 0.5 );
 // returns true
