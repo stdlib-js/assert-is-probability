@@ -52,7 +52,7 @@ A **probability** is defined as a numeric value on the interval `[0,1]`.
 To use in Observable,
 
 ```javascript
-isProbability = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability@umd/browser.js' )
+isProbability = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability@v0.2.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -64,7 +64,7 @@ var isProbability = require( 'path/to/vendor/umd/assert-is-probability/index.js'
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability@v0.2.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -154,7 +154,7 @@ bool = isProbability.isObject( new Number( 0.11 ) );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability@v0.2.2-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
